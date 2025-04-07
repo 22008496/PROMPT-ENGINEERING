@@ -1,4 +1,4 @@
-# PROMPT-ENGINEERING- 1.	Comprehensive Report on the Fundamentals of Generative AI and Large Language Models (LLMs)
+## PROMPT-ENGINEERING- 1.	Comprehensive Report on the Fundamentals of Generative AI and Large Language Models (LLMs)
 Experiment:
 Develop a comprehensive report for the following exercises:
 1.	Explain the foundational concepts of Generative AI. 
@@ -7,6 +7,7 @@ Develop a comprehensive report for the following exercises:
 4.	Generative AI impact of scaling in LLMs.
 
 # 1 Foundational Concepts of Generative AI
+
 Generative AI refers to a class of artificial intelligence systems that can generate new content—such as text, images, audio, or code—that resembles human-created content. Unlike discriminative models that classify or label input data, generative models learn the underlying patterns and distributions in the data to produce new, original outputs.
 Training Data: Generative AI models are trained on large datasets to learn the statistical properties of the data.
 Latent Space: The model maps inputs into a high-dimensional space where patterns and features are encoded.
@@ -15,6 +16,7 @@ Self-supervised Learning: Much of generative AI relies on self-supervised learni
 Autoregression: Models generate sequences (e.g., text) by predicting the next element based on the previous ones.
 
 # 2 Generative AI Architectures 
+
 Generative AI is powered by advanced architectures, the most notable being transformers.
 Transformers:
 Introduced by Vaswani et al. in the 2017 paper “Attention is All You Need”, the transformer architecture revolutionized natural language processing by using self-attention mechanisms.
@@ -30,6 +32,7 @@ BERT (Bidirectional Encoder Representations from Transformers): Encoder-only arc
 T5, BART, PaLM, LLaMA: Hybrid or improved models for various generative tasks.
 
 # 3 Applications of Generative AI
+```
 Generative AI has widespread applications across different domains:
 Natural Language Processing (NLP):
 Text Generation: ChatGPT, story writing, code generation.
@@ -49,8 +52,9 @@ Medical Imaging: Generating and enhancing diagnostic images.
 Programming & Software Development:
 Code Autocompletion: GitHub Copilot, Replit Ghostwriter.
 Automated Testing: Generate test cases based on code.
-
+```
 # 4 Impact of Scaling in Large Language Models (LLMs)
+
 Scaling Laws:
 Research shows that increasing model size (parameters), data, and computation leads to improved performance on a wide range of tasks. This is known as scaling laws.
 Key Impacts:
@@ -72,6 +76,7 @@ Open-Source Models: LLaMA, Mistral, and Falcon are examples of accessible LLMs.
 Retrieval-Augmented Generation (RAG): Improves output quality by incorporating external knowledge.
 
 # 4 Applications of LLMs
+```
 Natural Language Processing (NLP) Tasks
 LLMs were originally designed for NLP and continue to excel in:
 Text Generation: Writing essays, blogs, scripts, or stories.
@@ -82,7 +87,7 @@ Programming & Software Development
 Code Generation: Writing code from natural language prompts (e.g., GitHub Copilot, Replit Ghostwriter).
 Bug Fixing and Explanation: Debugging or explaining code logic.
 Documentation Generation: Creating docstrings and usage examples.
-
+```
 # 5 What is Generative AI?
 Generative Artificial Intelligence (Generative AI) refers to a class of AI systems that are designed to create new content—such as text, images, audio, or code—that is similar to human-created data.
 Instead of just recognizing or classifying data (like traditional AI), generative AI learns patterns from training data and uses that knowledge to generate novel outputs.
@@ -91,23 +96,12 @@ Instead of just recognizing or classifying data (like traditional AI), generativ
 Large Language Models (LLMs) are a type of generative AI specifically trained to understand, generate, and interact with human language.
 They are built using deep learning techniques, especially transformer-based architectures, and trained on massive text datasets.
 
-# 7 Architecture of LLMs and Generative AI
-The backbone of modern Generative AI and LLMs is the Transformer architecture, introduced in the paper "Attention is All You Need" (2017, Vaswani et al.).
-Key Components of Transformer Architecture:
-Input Embeddings: Converts words or tokens into vector representations.
-Positional Encoding: Adds information about word positions in a sequence.
-Self-Attention Mechanism:
-Allows the model to weigh the importance of different words in a sequence.
-Enables the model to understand context (e.g., who "he" refers to in a sentence).
-Multi-Head Attention:
-Looks at different parts of the sequence simultaneously.
-Feedforward Neural Networks: Adds non-linear transformations.
-Layer Normalization and Residual Connections: Stabilizes and speeds up learning.
-Stacked Layers: More layers = deeper understanding.
-Types of Transformer Models:
-Encoder-only: BERT (used for classification, understanding)
-Decoder-only: GPT (used for generation)
-Encoder-Decoder: T5, BART (used for translation, summarization)
+# 7 Architecture of LLMs 
+The architecture of LLMs is predominantly based on transformers. A transformer consists of encoder and decoder blocks that use self-attention mechanisms to process input data. Key components of transformer architecture include:
+Self-Attention Mechanism: Allows the model to weigh the importance of different words in a sentence relative to each other.
+Multi-Head Attention: Enables the model to focus on different parts of the sentence simultaneously.
+Feedforward Neural Networks: Applied after attention layers to process information.
+Positional Encoding: Injects information about the position of tokens in the sequence. LLMs like GPT use a decoder-only architecture, while models like BERT use encoder-only, and T5 uses both encoder and decoder. Training these models involves unsupervised or semi-supervised learning on large text corpora, followed by fine-tuning for specific tasks.
 
 # 8 How generative AI works: 
 For the most part, generative AI operates in three phases:  
@@ -149,6 +143,7 @@ those insights to support executives, analysts, researchers and other profession
 making smarter, data-driven decisions.
 
 # 12 Challenges, limitations and risks of generative AI and LLMs:
+```
 Threats to security, privacy and intellectual property:Generative AI models can be 
 exploited to generate convincing phishing emails, fake identities or other malicious 
 content that can fool users into taking actions that compromise security and data 
@@ -165,7 +160,10 @@ Difficulty with Linguistic Elements-One of the significant challenges in natural
 processing is managing the complexities of human language. Large language models 
 often struggle with linguistic elements such as idioms, colloquialisms, and figurative 
 language. 
-
+```
 
 # Result
-This write-up provides a complete overview of Generative AI and Large Language Models (LLMs), covering their definitions, evolution, types, architecture, applications, benefits, and limitations. By understanding how these models function and their impact on various industries, we gain insights into both their transformative power and the challenges they present. This knowledge is essential for students, developers, and professionals to responsibly innovate and contribute to the evolving landscape of artificial intelligence. It highlights the importance of using Generative AI ethically while harnessing its potential to solve real-world problems and enhance human creativity.
+This write-up provides a complete overview of Generative AI and Large Language Models (LLMs), covering their definitions, evolution, types, architecture, applications, benefits, and limitations. By understanding 
+how these models function and their impact on various industries, we gain insights into both their transformative power and the challenges they present. This knowledge is essential for students, developers, and 
+professionals to responsibly innovate and contribute to the evolving landscape of artificial intelligence. It highlights the importance of using Generative AI ethically while harnessing its potential to solve 
+real-world problems and enhance human creativity.
