@@ -84,7 +84,7 @@ Text Summarization: Condensing long texts into short summaries.
 Translation: Converting one language to another (e.g., English to French).
 
 Programming & Software Development
-Code Generation: Writing code from natural language prompts (e.g., GitHub Copilot, Replit Ghostwriter).
+Code Generation: Writing code from natural language prompts (e.g., GitHub Copilot).
 Bug Fixing and Explanation: Debugging or explaining code logic.
 Documentation Generation: Creating docstrings and usage examples.
 ```
