@@ -17,6 +17,9 @@ Autoregression: Models generate sequences (e.g., text) by predicting the next el
 
 # 2 Generative AI Architectures 
 
+![Screenshot 2025-03-21 102026](https://github.com/user-attachments/assets/fa5aa453-21d3-442f-b7f6-b122c184b26b)
+
+
 Generative AI is powered by advanced architectures, the most notable being transformers.
 Transformers:
 Introduced by Vaswani et al. in the 2017 paper “Attention is All You Need”, the transformer architecture revolutionized natural language processing by using self-attention mechanisms.
@@ -97,6 +100,10 @@ Large Language Models (LLMs) are a type of generative AI specifically trained to
 They are built using deep learning techniques, especially transformer-based architectures, and trained on massive text datasets.
 
 # 7 Architecture of LLMs 
+
+![Screenshot 2025-03-24 085941](https://github.com/user-attachments/assets/466fe09b-4e83-4f04-825b-45d1a2589405)
+
+
 The architecture of LLMs is predominantly based on transformers. A transformer consists of encoder and decoder blocks that use self-attention mechanisms to process input data. Key components of transformer architecture include:
 Self-Attention Mechanism: Allows the model to weigh the importance of different words in a sentence relative to each other.
 Multi-Head Attention: Enables the model to focus on different parts of the sentence simultaneously.
